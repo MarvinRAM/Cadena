@@ -4,6 +4,8 @@ public class Cadena {
         Scanner almacenar = new Scanner(System.in);
         System.out.println("Escribe tu nombre");
         String nombre = almacenar.nextLine();
-        System.out.println("Tu nombre es: " + nombre);
+        System.out.println("Escribe tus apellidos");
+        String apellidos = almacenar.nextLine();
+        System.out.println("Tu nombre completo es: " + nombre + " " + apellidos);
     }
 }
